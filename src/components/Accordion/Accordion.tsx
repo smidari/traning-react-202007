@@ -6,7 +6,7 @@ type AccordionPropsType = {
     setAccordionCollapsed: (a: boolean) => void
 }
 
-function Accordion(props: AccordionPropsType) {
+export function Accordion(props: AccordionPropsType) {
     return <>
         <AccordionTitle title={props.titleValue}
                         setAccordionCollapsed={props.setAccordionCollapsed}
@@ -33,6 +33,4 @@ function AccordionBody() {
             <li>2</li>
             <li>3</li>
         </ul>)
-}
-
-export default Accordion;
+};

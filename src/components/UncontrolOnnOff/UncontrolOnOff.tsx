@@ -3,7 +3,7 @@ import React, {useState} from "react";
 type PropsType = {
     //on: boolean
 }
-function OnOff(props: PropsType) {
+ export function UncontrolOnOff(props: PropsType) {
     let [on, setOn] = useState(false);
 
     const onStyle = {
@@ -49,6 +49,4 @@ function OnOff(props: PropsType) {
             <div style={indicatorStyle}></div>
         </div>
     )
-}
-
-export default OnOff;
+};

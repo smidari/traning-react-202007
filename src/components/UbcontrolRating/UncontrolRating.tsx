@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {RatingValueTpe} from "../App";
+import {RatingValueType} from "../../App";
 
 export function UncontrolRating() {
 
@@ -18,8 +18,8 @@ export function UncontrolRating() {
 
 type StarPropsType = {
     selected: boolean
-    value: RatingValueTpe
-    setvalue: (value: RatingValueTpe) => void
+    value: RatingValueType
+    setvalue: (value: RatingValueType) => void
 }
 
 const Star = (props: StarPropsType) => (

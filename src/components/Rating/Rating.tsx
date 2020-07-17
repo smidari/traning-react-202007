@@ -1,9 +1,9 @@
 import React from "react";
-import {RatingValueTpe} from "../../App";
+import { RatingValueType} from "../../App";
 
 type RatingPropsType = {
-    value: RatingValueTpe
-    setratingValue: (value: RatingValueTpe) => void
+    value: RatingValueType
+    setratingValue: (value: RatingValueType) => void
 }
 
 export function Rating(props: RatingPropsType) {
@@ -20,9 +20,9 @@ export function Rating(props: RatingPropsType) {
 
 type StarPropsType = {
     selected: boolean
-    value: RatingValueTpe
-    setratingValue: (value: RatingValueTpe) => void
+    value: RatingValueType
+    setratingValue: (value: RatingValueType) => void
 }
 
-const Star = (props: StarPropsType) => (<span onClick={()=>props.setratingValue(props.value)}>{props.selected ? <b>star </b> : 'star'}</span>);
+const Star = (props: StarPropsType) => (<span onClick={()=>props.setratingValue(props.value)}>{props.selected ? <b>star </b> : 'star '}</span>);
 

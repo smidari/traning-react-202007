@@ -4,7 +4,7 @@ type PropsType = {
     on: boolean
     setOn: (value: boolean) => void
 }
-function UncontrolOnOff(props: PropsType) {
+export function OnOff(props: PropsType) {
 
 
     const onStyle = {
@@ -50,6 +50,4 @@ function UncontrolOnOff(props: PropsType) {
             <div style={indicatorStyle}></div>
         </div>
     )
-}
-
-export default UncontrolOnOff;
+};
