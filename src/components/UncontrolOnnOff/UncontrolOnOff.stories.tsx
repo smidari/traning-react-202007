@@ -8,4 +8,5 @@ export default {
 };
 const callback = action("on or off clicked");
 
-export const RatingMode = () => <UncontrolOnOff />;
+export const UncontrolOnMode = () => <UncontrolOnOff defaultOn={true} onCange={callback}/>;
+export const UncontrolOffMode = () => <UncontrolOnOff defaultOn={false} onCange={callback}/>;

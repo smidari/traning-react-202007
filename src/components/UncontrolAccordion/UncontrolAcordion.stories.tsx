@@ -6,6 +6,5 @@ export default {
     title: 'UncontrolAccordion',
     component: UncontrolAccordion,
 };
-const callback = action("on or off clicked");
 
-export const RatingMode = () => <UncontrolAccordion titleValue={'test'} />;
+export const UncontrolAccordionMode = () => <UncontrolAccordion titleValue={'test'} />;

@@ -1,0 +1,43 @@
+/*.header{*/
+/*    border-bottom: 2px solid #d1d1d1;*/
+/*    width: 110px;*/
+/*    font-size: 19px;*/
+/*}*/
+/*.header:hover{*/
+/*    border-bottom-color: deepskyblue;*/
+/*    transition: .3s;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.header:active{*/
+/*    background-color: deepskyblue;*/
+/*}*/
+/*.body{*/
+/*    border: 1px solid #9e9e9e;*/
+/*    width: 110px;*/
+/*}*/
+/*.body div:hover{*/
+/*    background-color: deepskyblue;*/
+/*    transition: .3s;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.select .main {
+    border: 1px solid black;
+    display: inline-block;
+    min-height: 20px;
+    max-width: 80px;
+    padding: 2px;
+}
+
+.items {
+    position: absolute;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.item.selected {
+    background-color: deepskyblue;
+    color: white;
+}
